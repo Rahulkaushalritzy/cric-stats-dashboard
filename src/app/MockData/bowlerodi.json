@@ -1,0 +1,64 @@
+[
+    {
+        "Name" : "Trent Boult",
+        "Team" : "NZ",
+        "Rating" : "737",
+        "id" : 1
+    },
+    {
+        "Name" : "Josh Hazlewood",
+        "Team" : "AUS",
+        "Rating" : "709",
+        "id" : 2
+    },
+    {
+        "Name" : "Mujeeb Ur Rahman",
+        "Team" : "AFG",
+        "Rating" : "708",
+        "id" : 3
+    },
+    {
+        "Name" : "Chris Woakes",
+        "Team" : "ENG",
+        "Rating" : "700",
+        "id" : 4
+    },
+    {
+        "Name" : "Mehidi Hasan",
+        "Team" : "BAN",
+        "Rating" : "692",
+        "id" : 5
+    },
+    {
+        "Name" : "Matt Henry",
+        "Team" : "NZ",
+        "Rating" : "691",
+        "id" : 6
+    },
+    {
+        "Name" : "Jasprit Bumrah",
+        "Team" : "IND",
+        "Rating" : "679",
+        "id" : 7
+    },
+    {
+        "Name" : "Mitchell Starc",
+        "Team" : "AUS",
+        "Rating" : "652",
+        "id" : 8
+    },
+    {
+        "Name" : "Shakib Al Hassan",
+        "Team" : "BAN",
+        "Rating" : "650",
+        "id" : 9
+    },
+    {
+        "Name" : "Kagiso Rabada",
+        "Team" : "SA",
+        "Rating" : "648",
+        "id" : 10
+    }
+    
+]
+

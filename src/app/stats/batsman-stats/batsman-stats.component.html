@@ -1,0 +1,28 @@
+<div class="row" style="background-color: lightgray;">
+
+
+    <h1 style="background-color: darkgray; color:black;">Batting Legends</h1>
+    <div class="col-md-4"></div>
+    
+    <div class="col-md-2">
+        <a [routerLink]="['/batsmandetails', stat.id  ]" id="GFG" *ngFor="let stat of batsmanStat">
+            <div class="card carda">
+                <img [src]="stat.imagePath" class="img-responsive" class="card-img-top card_img" >
+                <div class="list-group-item name_tab" style="text-align: center;">
+
+
+                    <h3 class="bowlerName"> {{stat.Name}}</h3>
+                    <p class="bowlerstat">Matches - {{stat.Matches}}</p>
+                    <p class="bowlerstat">Runs - {{stat.runs}}</p>
+                    <p class="bowlerstat">Best - {{stat.best}}</p>
+                    <!-- <p class="bowlerstat">Average - {{stat.average}}</p>
+                    <p class="bowlerstat">Strtike Rate - {{stat.strikerate}}</p>
+                    <p class="bowlerstat">Fifties - {{stat.fifties}}</p>
+                    <p class="bowlerstat">Centuries - {{stat.centuries}}</p> -->
+
+                </div>
+            </div>
+
+        </a>
+ </div>
+</div>

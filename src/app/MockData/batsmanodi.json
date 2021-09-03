@@ -1,0 +1,63 @@
+[
+    {
+        "Name" : "Babar Azam",
+        "Team" : "PAk",
+        "Rating" : "873",
+        "id" : 1
+    },
+    {
+        "Name" : "Virat Kohli",
+        "Team" : "IND",
+        "Rating" : "844",
+        "id" : 2
+    },
+    {
+        "Name" : "Rohit Sharma",
+        "Team" : "IND",
+        "Rating" : "813",
+        "id" : 3
+    },
+    {
+        "Name" : "Ross Taylor",
+        "Team" : "NZ",
+        "Rating" : "801",
+        "id" : 4
+    },
+    {
+        "Name" : "Aaron Finch",
+        "Team" : "AUS",
+        "Rating" : "779",
+        "id" : 5
+    },
+    {
+        "Name" : "Jonny Bairstow",
+        "Team" : "ENG",
+        "Rating" : "775",
+        "id" : 6
+    },
+    {
+        "Name" : "David Warner",
+        "Team" : "AUS",
+        "Rating" : "762",
+        "id" : 7
+    },
+    {
+        "Name" : "Quinton de Kock",
+        "Team" : "SA",
+        "Rating" : "758",
+        "id" : 8
+    },
+    {
+        "Name" : "Shai Hope",
+        "Team" : "WI",
+        "Rating" : "758",
+        "id" : 9
+    },
+    {
+        "Name" : "Kane Williamson",
+        "Team" : "NZ",
+        "Rating" : "754",
+        "id" : 10
+    }
+    
+]

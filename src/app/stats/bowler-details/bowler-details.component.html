@@ -1,0 +1,59 @@
+<div class="row">
+  <div class="col-md-4" style="border: 1px solod black;">
+    <div class="card cardtop" style="width: 18rem;">
+      <img class="card-img-top " [src]="stats.imagePath" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">
+
+        <div>
+          <h5 class="bowlerName"> {{stats.Name}}</h5>
+
+
+     
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="col-md-8">
+    <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptionsa"></highcharts-chart>
+  </div>
+
+
+
+
+
+
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card carda" style="width: 18rem;">
+        
+        <div class="card-body">
+          <p class="card-text">
+  
+          <div>
+          
+  
+  
+            <p class="bowlerstat">Matches - {{stats.Matches}}</p>
+            <p class="bowlerstat">Best - {{stats.best}}</p>
+            <p class="bowlerstat">Average - {{stats.average}}</p>
+            <p class="bowlerstat">Wickets - {{stats.wickets}}</p>
+            <p class="bowlerstat">Fifers - {{stats.fifers}}</p>
+          </div>
+        </div>
+      </div>
+      <button class=" btn back"  (click)="onBack()" >Go Back Simon</button>
+    </div>
+
+    <div class="col-md-8">
+      <highcharts-chart [Highcharts]="Highcharts" [options]="chartOptions"></highcharts-chart>
+    </div>
+  </div>

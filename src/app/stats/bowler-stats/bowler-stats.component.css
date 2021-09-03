@@ -1,0 +1,38 @@
+#GFG {
+    text-decoration: none;
+}
+
+.bowlerName{
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif;
+color: whitesmoke;
+}
+
+.bowlerstat{
+background-color:aliceblue;
+font-style: bold;
+font-weight: 400;
+
+ 
+}
+
+.carda{
+    width: 300px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+    
+}
+
+.name_tab{
+background-color: black;
+}
+
+.image{
+    height: auto;
+    width: auto;
+}
+/* 
+.card_img{
+    max-height: 0px;
+} */

@@ -1,0 +1,104 @@
+
+    <app-rankings></app-rankings>
+    
+    
+    
+    <div class="container">
+        <diV>
+            <h2 style="background-color:cornflowerblue; margin-top: 10px;">ICC TEAM RANKINGS</h2>
+        </diV>
+        <div class="row">
+            <nav class="navbar navbar-light bg-light format" >
+               
+                  <button class="btn btn-outline-primary navbtns" >Test</button>
+                  <button class="btn btn-outline-primary navbtns" (click)="toOdi()">ODI</button>
+                  <button class="btn btn-outline-primary navbtns" >T20I</button>
+               
+              </nav>
+        </div>
+    </div>
+    
+    <!-- Test Data -->
+    <div class="container" *ngIf="testTeam">
+        <div style="margin-top: 10px;">
+            <h3>TEST TEAM RANKINGS </h3>
+        </div>
+        <div class="row">
+            <table class="table" style="margin-top: 20px">
+                <thead style="background-color: cornflowerblue;">
+                    <tr>
+                        <th scope="col">POS</th>
+                        <th scope="col">TEAM</th>
+                        <th scope="col">POINTS</th>
+                        <th scope="col">RATINGS </th>
+                    </tr>
+                </thead>
+               <tbody>
+                <tr *ngFor = "let test of testteamdata">
+                    <td>{{test.id}}</td>
+                    <td>{{test.Country}}</td>
+                    <td>{{test.Points}}</td>
+                    <td>{{test.Ratings}}</td>
+                    <td>{{test.Image}}</td>
+                </tr>
+               </tbody>
+            </table>
+        </div>
+    </div>
+    
+    
+    <div class="container" *ngIf="oditeam">
+        <div style="margin-top: 10px;">
+            <h3>ODI TEAM RANKINGS </h3>
+        </div>
+        <div class="row">
+            <table class="table" style="margin-top: 20px">
+                <thead style="background-color: cornflowerblue;">
+                    <tr>
+                        <th scope="col">POS</th>
+                        <th scope="col">PLAYER</th>
+                        <th scope="col">COUNTRY</th>
+                        <th scope="col">RATINGS </th>
+                    </tr>
+                </thead>
+               <tbody>
+                <tr *ngFor = "let test of odibatsmandata">
+                    <td>{{test.id}}</td>
+                    <td>{{test.Name}}</td>
+                    <td>{{test.Team}}</td>
+                    <td>{{test.Rating}}</td>
+               
+                </tr>
+               </tbody>
+            </table>
+        </div>
+    </div>
+    
+    <div class="container" *ngIf="t20team">
+        <div style="margin-top: 10px;">
+            <h3>T20I TEAM RANKINGS </h3>
+        </div>
+        <div class="row">
+            <table class="table" style="margin-top: 20px">
+                <thead style="background-color: cornflowerblue;">
+                    <tr>
+                        <th scope="col">POS</th>
+                        <th scope="col">TEAM</th>
+                        <th scope="col">POINTS</th>
+                        <th scope="col">RATINGS </th>
+                    </tr>
+                </thead>
+               <tbody>
+                <tr *ngFor = "let test of t20teamdata">
+                    <td>{{test.id}}</td>
+                    <td>{{test.Country}}</td>
+                    <td>{{test.Points}}</td>
+                    <td>{{test.Ratings}}</td>
+                    <td>{{test.Image}}</td>
+                </tr>
+               </tbody>
+            </table>
+        </div>
+    </div>
+    
+    
